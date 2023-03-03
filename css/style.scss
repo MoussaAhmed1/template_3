@@ -1,0 +1,15 @@
+@import "_variable";
+@import "animation";
+@import "globalRules";
+
+div.container{
+  margin-top: 5px;
+  .row{
+    margin-top: 5px;
+
+    .col{
+      background-color: $main-color;
+      color: #fff;
+    }
+  }
+}
